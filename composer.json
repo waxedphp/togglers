@@ -1,15 +1,19 @@
 {
     "name": "waxedphp/togglers",
     "version": "0.2.8",
-    "description": "Advanced views with mustache.",
+    "description": "Toggle switches for form input radio buttons - within WaxedPHP environment.",
     "type": "library",
     "license": "MIT",
+    "version": "0.2.6",
     "autoload": {
         "psr-4": {
             "Waxedphp\\Togglers\\": "src"
         }
     },
     "authors": [
+        {
+            "name": "Adam Culpepper"
+        },
         {
             "name": "Waxed"
         }

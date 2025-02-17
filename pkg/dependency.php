@@ -2,10 +2,10 @@
 
 return [
   'js' => [
-    '/togglers/plugin.js',
+    $PATH . '/plugin.js',
   ],
   'css' => [
-    '/togglers/style.css',
+    $PATH . '/style.css',
   ],
 ];
 
