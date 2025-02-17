@@ -84,7 +84,7 @@
       },
 
       this.disable = function(val) {
-        console.log('DISABLE', val);
+        //console.log('DISABLE', val);
         for(var i=0; i<this.radios.length; i++){
           if (val.includes($(this.radios[i]).val())) {
             $(this.radios[i]).prop('disabled', true);
@@ -138,7 +138,7 @@
           });
           $(elem).addClass('waxed-plugin-input');
         });
-        console.log(this.value);
+        //console.log(this.value);
         inited = true;
       },
       this._init_();
