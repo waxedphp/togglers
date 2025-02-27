@@ -1,20 +1,26 @@
 # toggleradios
 
-MIT license
+Toggle switches for form input radio buttons.
 
 CSS by: Adam Culpepper
+
 [https://github.com/adamculpepper/toggle-radios]
 
-
-### HTML:
-
-```
-
-```
- 
+MIT license
+---
 ### PHP:
  
 ```
  
 ```
- 
+
+
+
+---
+### HTML:
+
+```
+
+```
+---
+--- 

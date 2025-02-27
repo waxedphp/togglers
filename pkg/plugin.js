@@ -124,6 +124,8 @@
           };
           this.pluggable.sendData(data, this.dd.url);
         }
+        that.form = $(that.element).closest('form');
+        $(that.form).trigger('waxed-form-submit');
       },
 
       this.init=function() {
@@ -137,6 +139,9 @@
             that.changed(this);
           });
           $(elem).addClass('waxed-plugin-input');
+        });
+        $(that.element).find('label').each(function(i,elem){
+          if(!$(elem).attr('for'))$(elem).attr('for', that.pluggable.getDomId(that.radios[i]));
         });
         //console.log(this.value);
         inited = true;
